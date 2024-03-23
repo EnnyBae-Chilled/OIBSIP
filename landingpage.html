@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Landing Page</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYAh0r-uY8qQdKA53b8k9iV4XoIsPpqxDpJwqv6kVU3F5KPBWBlMsDkaYVFgFQWW9IJsU&usqp=CAU">
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="https://exp-vpn.vercel.app/images/logo.png" 
+                alt="logo" 
+                width="100"
+                id="header-img">
+            </div>
+            <!-- <ul class="nav-links">
+                <li><a href="about.html">About Us</a></li>
+                <li>
+                    <a href="#">English </a>
+                    <ul class="dropdown">
+                        <li><a href="#">Spanish</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Chinese</a></li>
+                    </ul>
+                </li>
+            </ul> -->
+        </nav>
+        <section class="top-section">
+            <h2 class="title">
+                The VPN that just works
+            </h2>
+            <h5>
+                Go further with the #1 trusted leader in VPN
+            </h5>
+            <div id="container">
+                <button id="getexpressVPN">Get ExpressVPN</button>
+            </div>
+            <h6> 30-DAY MONEY-BACK GUARANTEE</h6>
+        </section>
+    </header>
+    <section class="main-section">
+        <div class="secure">
+            <div class="secure-col">
+                <img src="https://exp-vpn.vercel.app/images/1.jpeg" 
+                alt="secure-img"
+                width="200px">
+            </div>
+            <div class="secure-col1">
+                <h2 class="secure-head">Secure access, <br>worldwide</h2>
+                <p class="secure-text">Connect reliably from anywhere, to anywhere. Our network of <br>
+                    high-speed servers across 94 countries puts you in control</p>
+                <a href="contact.html">
+                    <button class="secure-text">Get ExpressVPN</button>
+                </a>
+            </div>
+        </div>
+        <div class="safe-section">
+            <div class="safe-text">
+                <h2 class="safe-header">One click to a safer <br>
+                    internet</h2>
+                <p class="safe-body">Going online doesn't have to mean being exposed. Whether <br>
+                you're shopping from your desk or just connecting at a cafe <br>
+                keep your personal information more private and secure</p>
+            </div>
+            <div class="safe-col1">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRd7eJLSCGTeWZRHrEQg9mX3kD7jjPMisUCW4rx1IVuhZfu5ib"
+                alt="safe-img">
+            </div>
+        </div>
+        <div class="express-section">
+            <div class="express-col">
+                <img class="express-img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnYW2PBAfnBsIeVUMTbKyGSePjwH24wVvnjWOCYqMfDRVVocT7" 
+                alt="express">
+            </div>
+            <div class="express=col1">
+                <h2 class="express-head">Use ExpressVPN on <br>
+                    every device</h2>
+                <p class="express-text">Phone, tablet, computer, router--no matter where you are or <br>
+                whar devices you're using, a single ExpressVPN subscription <br>has got you covered</p>
+                <div class="icons">
+                    <a href="https://www.youtube.com/c/Expressvpn?sub_confirmation=1" target="_blank" class="icon">
+                        <img src="https://www.shutterstock.com/image-vector/apple-vector-icon-editorial-logo-600nw-2411794409.jpg" 
+                        alt="Apple"
+                        width="40px">
+                    </a>
+                    <a href="https://www.instagram.com/expressvpn/" target="_blank" class="icon">
+                        <img src="https://cdn.icon-icons.com/icons2/3398/PNG/512/windows_logo_icon_214749.png" 
+                        alt="Windows"
+                        width="40px">
+                    </a>
+                    <a href target="_blank" class="icon">
+                        <img src="data:image/png;base64,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" 
+                        alt="Android"
+                        width="40px">
+                    </a>
+                </div>
+                <div class="urls">
+                        <a href="#" target="_blank">See all apps ></a> 
+                </div>
+                <a href="contact.html">
+                    <button class="express-btn">Get ExpressVPN</button>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="last-section">
+            <div class="strong">
+                <img class="last-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4eNe2OR0_pOD15CrlCVPsD4YCK3y6NBspBMMzeEvzKjZYdmLG" 
+                alt="strong"
+                width="200px">
+                <h3>Stronger data <br>protection</h3>
+                <p>Take charge of your online privacy and <br>security with best in-class encryption. </p>                
+            </div>
+            <div class="seam">
+                <img class="last-img" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSu31yr5djzoLrJnRVlniWA6ySCF4tQHMaXuKTk0PjSU6oV2QV6" 
+                alt="seam"
+                width="200px">
+                <h3>Works seamlessly <br>everywhere </h3>
+                <p>Experience the internet the way it's meant to <br>
+                    be. On the go, or on your couch</p>
+            </div>
+            <div class="quick">
+                <img class="last-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAJO25v6meyhVeyxuQgwOzkNlTrxmX56kzwRqp4YtQxcKjgTbG" 
+                alt="quick"
+                width="200px">
+                <h3>Lighting-quick <br>connectivity</h3>
+                <p>Our VPN network is built for speed <br>powered by next generation technology. </p>
+            </div>
+        </div>
+        <p class="url1">
+            <a href="#" target="_blank">See more advantages ></a>
+        </p>
+    </section>
+    <section class="globe-section">
+        <div class="globe-div">
+            <h2>Ultra-fast servers around the globe</h2>
+            <img class="globe-img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTd4TfUyhSeTGS2pUJM6vVi-PDsttrPszBIbIxxCPVd380u-irz" 
+            alt="globe"
+            width="">
+            <div class="globe-text">
+                <h3 class="globe-h3">160</h3>
+                <p class="globe">locations</p>
+                <h3 class="globe-h3">94</h3>
+                <p class="globe">countries</p>
+                <h3 class="globe-h3">∞</h3>
+                <p class="globe">unlimited <br>bandwidth</p>
+            </div>
+        </div>
+        <p class="url2">
+            <a href target="_blank">See our full list of VPN server locations</a>
+        </p>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
